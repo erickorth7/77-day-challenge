@@ -1,0 +1,81 @@
+:root {
+    --primaryColor: #29ABE2;
+    --secondaryColor: #FDFDFD;
+    --tertiaryColor: #FCEE21;
+    --mainFont: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--primaryColor) !important;
+}
+
+p {
+    margin: 1rem 0 !important;
+}
+
+#main_page_container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: var(--mainFont);
+}
+
+#main_title {
+    color: var(--tertiaryColor);
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+#feature_list {
+    text-align: left;
+}
+
+#feature_list p {
+    display: inline-block;
+    margin-left: .5rem !important;
+}
+
+.sub_heading {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding: 2.5rem;
+}
+
+.primary_bkg {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+.secondary_bkg {
+    background-color: var(--secondaryColor);
+    color: #000000;
+}
+
+.text_effect {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #928300,
+        1px 2px 1px #928300,
+        1px 3px 1px #928300,
+        1px 4px 1px #928300,
+        1px 5px 1px #928300,
+    1px 8px 6px rgba(16,16,16,0.4),
+    1px 13px 10px rgba(16,16,16,0.2),
+    1px 18px 35px rgba(16,16,16,0.2),
+    1px 26px 60px rgba(16,16,16,0.4);
+}
+
+.emphasis_text {
+    color: var(--tertiaryColor);
+    display: block;
+    font-size: 1.7rem;
+}
+
+.underline_text {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: 700;
+}
