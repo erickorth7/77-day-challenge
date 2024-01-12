@@ -28,11 +28,16 @@ p {
 
 #feature_list {
     text-align: left;
+    margin: 0 auto;
 }
 
 #feature_list p {
     display: inline-block;
     margin-left: .5rem !important;
+}
+
+.feature .col-1 {
+    align-self: center;
 }
 
 .sub_heading {
@@ -78,4 +83,10 @@ p {
 
 .bold {
     font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+    #main_title {
+        font-size: 2.8rem;
+    }
 }
